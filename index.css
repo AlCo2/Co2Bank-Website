@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Navbar: */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#navbrand{
+    font-family: 'Inter';
+    font-weight: 600;
+}
+#navlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Inter';
+}
+#navlist a{
+    text-decoration: none;
+}
+#navbtn{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #47455a;
+    color: white;
+    font-size: 10px;
+    font-family: 'Inter';
+    cursor: pointer;
+}
+/*Main: */
+#main{
+    height: 100vh;
+    background: linear-gradient(90deg, #e4f8f6 0%, #ffe7e7 100%)
+}
+
+#mainmid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+#maintext{
+    margin-left: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align-last: left;
+    align-items: flex-start;
+}
+#mainbig{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+#mainlitlle{
+    margin-bottom: 20px;
+    font-family: 'Inter';
+}
+
+#mainbtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #47455a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Inter';
+}
+
+#mainimage{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#mainpic{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://www.pngmart.com/files/16/Male-Hand-Holding-Credit-Card-Transparent-PNG.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 10px solid #47455a;
+    border-radius: 50%;
+}
+
+
+/*Main2: */
+
+#main2{
+    height: 50vh;
+    background-color: #47455a;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+#main2intro{
+    width: 80%;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+}
+#main2all{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 10px;
+    margin-top: 50px;
+}
+.main2card{
+    width: 150px;
+    height: 50px;
+    background-color: #5b5a6c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 'Inter';
+    justify-items: center;
+}
+#main2txt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main2txt1{
+    font-family: 'Poppins';
+}
+#main2txt2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main2txt3{
+    font-family: 'Inter';
+    font-weight: bold;
+}
+#main2txt4{
+    font-family: 'Inter';
+    font-weight: 200;
+}
+#main2txt5{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+#main2txt6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main2txt7{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+/*main3: */
+
+#main3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #47455a;
+}
+
+#main3intro{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+}
+#main3all{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    place-items: center;
+}
+.main3card{
+    background-color: #5b5a6c;
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.main3logo{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 30px;
+}
+.main3txt{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight:600;
+    color: white;
+}
+.main3text{
+    margin-top: 10px;
+    font-size: 10px;
+}
