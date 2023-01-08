@@ -256,9 +256,13 @@
         width: 100%;
     }
     .main3card{
-        width: 180px;
+        max-width: 200px;
+        width: fit-content;
         height: 260px;
         margin: 0;
+    }
+    #main2{
+        height: fit-content;
     }
     .main2card{
         width: 120px;   
@@ -347,6 +351,7 @@
         position: fixed;
         right: 4%;
         cursor: pointer;
+        font-size: 20px;
     }
     #shownav{
         display: flex;
