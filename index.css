@@ -73,6 +73,7 @@
     height: 100%;
     text-align-last: left;
     align-items: flex-start;
+    margin-left: 200px;
 }
 #mainbig{
     font-size: 35px;
@@ -210,11 +211,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 40px;
     place-items: center;
-    gap: 20px;
 }
 .main3card{
     background-color: #5b5a6c;
-    width: 220px;
+    width: 250px;
     height: 300px;
     border-radius: 10px;
     display: flex;
