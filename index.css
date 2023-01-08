@@ -256,6 +256,7 @@
         width: 100%;
     }
     .main3card{
+        max-width: 200px;
         width: fit-content;
         height: 260px;
         margin: 0;
@@ -313,18 +314,7 @@
     #maintext{
         margin: 10px;
     }
-    #main3all{
-    grid-gap: 20px;
-    }
-    #main2{
-        height: fit-content;
-    }
-    #main2all{
-        margin-bottom: 60px;
-    }
-    .main3card{
-        width: 250px;
-    }
+
     /*nav responsive: */
 
     #navlist{
